@@ -1,0 +1,288 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.button{
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    Padding: 10px 24px 10px 24px;
+    font-size: 16px;
+    font-weight:700 ;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+/* influencer-gear-title-with-menu */
+.influencer-gear-title-with-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+/* influencer-gear-title */
+.influencer-gear-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: 87px;
+}
+/* influencer-gear-menu */
+.influencer-gear-menu{
+    display: flex;
+    margin-top: 95px;
+    margin-right: 120px;
+}
+.menu-navigation{
+    margin-right: 34px;
+}
+.menu-navigation a{
+    text-decoration: none;
+}
+/* influencer-gear-heading-with-photo */
+.influencer-gear-heading-with-photo{
+    display: flex;
+}
+.influencer-gear-heading{
+    width: 582px;
+    height: 270px;
+    margin-top: 94.8px;
+    margin-left: 120px;
+}
+.influencer-gear-heading-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.influencer-gear-heading-detail{
+    font-size: 16px;
+    font-weight: 600;
+}
+.influencer-gear-photo{
+    Width: 475px;
+    Height: 475px;
+    margin-right: 90px;
+    margin-left: 30px;    
+    background-image: url(/images/Circle\ design.svg);
+    margin-top: 130px;
+}
+.influencer-gear-photo img{
+    width: 100%;
+}
+.influencer-gear-photo:hover .influencer-gear-photo-camera{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+.influencer-gear-photo-camera img{
+    position: absolute;
+    top: 0;    
+}
+.big-company-logo{
+    margin-top: 100px;
+}
+hr{width: 1110px;
+        border: 1px solid linear-gradient(rgba(192, 204, 218, 0.1),rgba(192, 204, 218, 0.6),rgba(192, 204, 218, 0.1));    
+}
+.logos{
+    display: flex;
+    align-items: center;
+    width: 1110px;
+    height: 110px;
+    margin-left: 75px;
+    
+}
+.logo{
+    margin-left: 61px;
+}
+.popular-collection{
+    font-weight: 600;
+    font-size: 28px;
+    width: 262px;
+    height: 70px;
+    margin-left: 588px;
+}
+.influencer-gear-product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 75px;
+}
+.influencer-gear-product{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    
+}
+.influencer-gear-product img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin-left: 14px;
+    margin-top: 17px;
+}
+
+.influencer-gear-product-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 15px;
+    height: 40px;
+}
+.influencer-gear-product-price{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 36px;
+    margin-left: 15px;
+}
+.influencer-gear-product-rating{
+    width: 29px;
+    height: 22px;
+    display: flex;
+    margin: 0;
+    margin-left: 15px;
+}
+.fa-star{
+    width: 16px;
+    height: 16px;
+}
+.space{
+    margin-right: 8px;
+}
+.influencer-gear-seller-notes{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 15px;
+}
+.influencer-gear-product-see-more{
+    color: #E02C6D;
+    width: 99px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 1074px;
+}
+.influencer-gear-product-suggestion{
+    margin-left: 75px;
+}
+.influencer-gear-product-suggestion-photo-and-details{
+    display: flex;
+}
+.influencer-gear-product-suggestion-photo img{
+    width: 404px;
+    height: 270px;
+}
+.influencer-gear-product-suggestion-details{
+    width: 610px;
+    height: 224px;
+    margin-left: 170px;
+}
+.influencer-gear-product-suggestion-details-heading{
+    font-size: 38px;
+    font-weight:700 ;
+}
+.influencer-gear-product-suggestion-detail{
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Influencer Gear Footer */
+footer{
+    background-color: #0A0826;
+    margin-top: 100px;
+}
+.influencer-gear-footer{
+    width: 262px;
+    height: 139px;
+    margin-left: 589px;
+    text-align: center;
+}
+.influencer-gear-footer-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+}
+.influencer-gear-footer-detail{
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+}
+.influencer-gear-footer-social-media-icon{
+    color: #FFFFFF;
+}
+.influencer-gear-footer-social-media-icon i{
+    margin-right: 15px;
+}
+/************* 
+ Media Query 
+**************/
+
+/* For mobile  */
+@media only screen and (max-width:688px){
+    .influencer-gear-heading-with-photo{
+        flex-direction: column;
+        margin-left: 0;
+        width: 70%;
+    }
+    .influencer-gear-heading{
+        margin: 0;
+
+    }
+    .popular-collection{
+        margin-left: 0;
+    }
+    .influencer-gear-product-list{
+        margin-left: 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .influencer-gear-product-suggestion{
+        margin-left: 10px;
+    }
+    .influencer-gear-product-suggestion-photo-and-details{
+        flex-direction: column;
+    }
+    .influencer-gear-product-suggestion-details{
+        margin-left: 10px;
+    }
+    .influencer-gear-footer{
+        margin-left: 10px;
+    }
+}
+/* for table */
+@media only screen and (max-width:992px){
+    .influencer-gear-heading-with-photo{
+        flex-direction: column;
+        margin-left: 10px;
+        width: 70%;
+    }
+    .influencer-gear-heading{
+        margin: 0;
+
+    }
+    .popular-collection{
+        margin-left: 200px;
+    }
+    .influencer-gear-product-list{
+        margin-left: 0;
+        grid-template-columns: repeat(2, .1fr);
+    }
+    .influencer-gear-product-suggestion{
+        margin-left: 100px;
+    }
+    .influencer-gear-product-suggestion-photo-and-details{
+        flex-direction: column;
+    }
+    .influencer-gear-product-suggestion-details{
+        margin-left: 10px;
+    }
+    .influencer-gear-footer{
+        margin-left: 200px;
+    }
+}
